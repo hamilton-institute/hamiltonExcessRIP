@@ -104,17 +104,9 @@ ui <-     bs4Dash::bs4DashPage(
 ) #End of UI
 
 
-
-
-
 server <- function(input, output) {
 
-
-
-
   output$view <- renderLeaflet({
-
-
     df2 <- merged_df %>% group_by(Group) %>% filter(Date == max(Date))
 
     df2 <- geo_join(eircodes, df2,"Group", "Group")
@@ -124,14 +116,9 @@ server <- function(input, output) {
                                  pop2 = case_when(as.character(df2$Group) != as.character(df2$Descriptor) ~ paste0(Monthly_Notices," at ", df2$Group, " including ",df2$Descriptor),
                                                   TRUE ~ paste0(Monthly_Notices," at ", df2$Group)))
 
-
-
     pal <- colorNumeric(palette = c("white","gray","darkred"), domain = df2$value)
 
-
-
     popup_sb <- df2$pop1
-
 
      leaflet() %>%
       addTiles() %>% setView(-7.5959, 53.5, zoom = 6) %>%
@@ -154,79 +141,65 @@ server <- function(input, output) {
       leaflet.extras::addResetMapButton() %>%
       leaflet.extras::addSearchOSM(options = searchOptions(collapsed = T,zoom = 9,hideMarkerOnCollapse = T, moveToLocation = FALSE,
                                                            autoCollapse =T))
-
-
   })
-
 
   observeEvent(input$view_shape_click,{#Plotting excess mortality plots for each region after clicking on the map
 
-
    output$plot2 <- renderPlotly({
+      m = subset(eircodes, Descriptor == input$view_shape_click$id)
 
-  m = subset(eircodes, Descriptor == input$view_shape_click$id)
-
-  df3 <- merged_rk_data %>% filter(Group == m$Group)
+      df3 <- merged_rk_data %>% filter(Group == m$Group)
 
      # calculate reference levels:
-     ref_level <- df3 %>% filter(Year < 2020 & Year >=2015 ) %>%
-       ungroup() %>%
-       group_by(Group,Date) %>%
-       summarize(Monthly_Notices = sum(Monthly_Notices)) %>%
-       mutate(DOY=yday(Date)) %>%
-       group_by(Group,DOY) %>%
-       mutate(Ref_Level = mean(Monthly_Notices),
-              Prev_Max = max(Monthly_Notices))
+       ref_level <- df3 %>% filter(Year < 2020 & Year >=2015 ) %>%
+         ungroup() %>%
+         group_by(Group,Date) %>%
+         summarize(Monthly_Notices = sum(Monthly_Notices)) %>%
+         mutate(DOY=yday(Date)) %>%
+         group_by(Group,DOY) %>%
+         mutate(Ref_Level = mean(Monthly_Notices),
+                Prev_Max = max(Monthly_Notices))
 
 
-      x <- eircodes$RoutingKey[which(eircodes$Group == m$Group)]
-      x <- knitr::combine_words(x)
+        x <- eircodes$RoutingKey[which(eircodes$Group == m$Group)]
+        x <- knitr::combine_words(x)
 
-      plt1 <- ggplot()+
-        geom_line(data = df3 ,
-                  aes(x=Date,y=Monthly_Notices, linetype="2020"), color = "red")+
-        geom_line(data = ref_level ,
-                  aes(x=as.Date(DOY,origin="2020-01-01"),y=Prev_Max, linetype="Previous years max"), color ="blue") +
-        geom_line(data = ref_level,
-                  aes(x=as.Date(DOY,origin="2020-01-01"),y=Ref_Level, linetype="Previous years mean"), color ="darkblue") +
-        facet_wrap(facets = vars(Group)) +
-        ggtitle(paste0("Notices Posted in 2020 - Eircode: ", x)) +
-        labs(x="",y="Monthly Notices") +
-        theme(axis.text.x = element_text(angle = 90), legend.position = c(0.89, 0.85))  +
-        scale_x_date(date_breaks = "1 month", date_labels = "%b",limits=c(as.Date("2020-01-01"),as.Date("2020-12-01"))) +
-        labs(linetype = "") +
-        scale_linetype_manual(values=c("solid", "dotted", "dashed")) + theme_bw()
-
-
-     # Merging 2020 and one of the previous years (doesn't matter which one they have identical ref col)
-
-     df2020 <- df3 %>% filter(Year == 2020)
-     df_ref <- ref_level %>% ungroup() %>% filter(year(Date) == 2019) %>% select(DOY, Ref_Level)
-
-     merged_df <- left_join(df2020, df_ref, "DOY")
-     merged_df <- merged_df %>% mutate(value = round(100*(Monthly_Notices - Ref_Level)/Ref_Level)) #Mortality rate change
-
-     p <- merged_df %>% ggplot(aes(Date, value)) + geom_line(color = "red") + ylab("Excess postings %") +
-            geom_hline(yintercept = 0, linetype="dotted") + ggtitle(paste0("Excess postings at ", m$Group, " relative to 2015-2019 mean")) +theme_bw()
-
-     plt2 <- ggplotly(p)
-
-     if(input$yscale == "percent"){
-
-       final_plot <- plt2
-
-     } else {
-
-       final_plot <- plt1
-
-     }
-
-     final_plot
+        plt1 <- ggplot()+
+          geom_line(data = df3 ,
+                    aes(x=Date,y=Monthly_Notices, linetype="2020"), color = "red")+
+          geom_line(data = ref_level ,
+                    aes(x=as.Date(DOY,origin="2020-01-01"),y=Prev_Max, linetype="Previous years max"), color ="blue") +
+          geom_line(data = ref_level,
+                    aes(x=as.Date(DOY,origin="2020-01-01"),y=Ref_Level, linetype="Previous years mean"), color ="darkblue") +
+          facet_wrap(facets = vars(Group)) +
+          ggtitle(paste0("Notices Posted in 2020 - Eircode: ", x)) +
+          labs(x="",y="Monthly Notices") +
+          theme(axis.text.x = element_text(angle = 90), legend.position = c(0.89, 0.85))  +
+          scale_x_date(date_breaks = "1 month", date_labels = "%b",limits=c(as.Date("2020-01-01"),as.Date("2020-12-01"))) +
+          labs(linetype = "") +
+          scale_linetype_manual(values=c("solid", "dotted", "dashed")) + theme_bw()
 
 
+       # Merging 2020 and one of the previous years (doesn't matter which one they have identical ref col)
+
+       df2020 <- df3 %>% filter(Year == 2020)
+       df_ref <- ref_level %>% ungroup() %>% filter(year(Date) == 2019) %>% select(DOY, Ref_Level)
+
+       merged_df <- left_join(df2020, df_ref, "DOY")
+       merged_df <- merged_df %>% mutate(value = round(100*(Monthly_Notices - Ref_Level)/Ref_Level)) #Mortality rate change
+
+       p <- merged_df %>% ggplot(aes(Date, value)) + geom_line(color = "red") + ylab("Excess postings %") +
+              geom_hline(yintercept = 0, linetype="dotted") + ggtitle(paste0("Excess postings at ", m$Group, " relative to 2015-2019 mean")) +theme_bw()
+
+       plt2 <- ggplotly(p)
+
+       if(input$yscale == "percent"){
+         final_plot <- plt2
+       } else {
+         final_plot <- plt1
+       }
+       final_plot
      })
-
-
   }) #End of Observation
 
   observeEvent(input$view_shape_click,{
@@ -236,15 +209,11 @@ server <- function(input, output) {
     size = "l",
     footer = actionButton("close", "Close"),
     plotlyOutput("plot2") %>% withSpinner(color="#FF4500") ))
-
   })
 
-
   observeEvent(input$close, { #Removing modal and erasing previous plot
-
     output$plot2 <- NULL
     removeModal()
-
   })
 
 
@@ -293,11 +262,7 @@ server <- function(input, output) {
             scale_fill_gradient2(limits=c(-100, 100), high = "firebrick3", low = "dodgerblue4", oob=squish) +
             theme(axis.text.y = element_text(size = 6), legend.position = "Top") + theme_bw()
 
-
-
           ggplotly(heatmap.plot, tooltip = c("Region","Excess"))
-
-
         })
 
 }
