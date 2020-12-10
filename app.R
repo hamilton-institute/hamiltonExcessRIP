@@ -264,7 +264,6 @@ server <- function(input, output) {
 
           ggplotly(heatmap.plot, tooltip = c("Region","Excess"))
         })
-
 }
 
 # Run the application
