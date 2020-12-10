@@ -1,0 +1,44 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+#
+# See https://github.com/r-lib/actions/tree/master/examples#readme for
+# additional example workflows available for the R community.
+
+name: updateData
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  schedule:
+  - cron: 0 0 * * *
+
+jobs:
+  deploy:
+    name: Update datasets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install libs
+        run: |
+          sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+          sudo apt-get update
+          sudo apt-get install libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+      - uses: r-lib/actions/setup-r@master
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install packages
+        run: |
+          Rscript installing_packages.R
+      - name: Update the dataset and deploy
+        run: |
+          Rscript updating_data.R ${{secrets.SHINYAPPS_TOKEN}} ${{secrets.SHINYAPPS_SECRET}}
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add . || echo "No changes to commit"
+          git commit -m 'updating data' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
