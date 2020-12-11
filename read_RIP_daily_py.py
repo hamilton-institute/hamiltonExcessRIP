@@ -120,6 +120,7 @@ for y in years:
 
         #Print current month and year
         print(m,y)
+        
 
         #Go through each day
         for d in days:
