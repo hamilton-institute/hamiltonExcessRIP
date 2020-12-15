@@ -4,7 +4,7 @@ install.packages(
     "rgdal", "leaflet", "leaflet.extras", "tigris", "spdplyr",
     "ggdendro", "scales", "shinyalert", "shinybusy", "RcppRoll",
     "zoo", "readxl", "Jmisc", "cowplot", "survival", "reticulate", "devtools",
-    "bs4Dash"
+    "bs4Dash", "git2r"
   ),
   repos = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"
 )
