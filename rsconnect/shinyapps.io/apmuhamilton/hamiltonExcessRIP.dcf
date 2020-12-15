@@ -5,8 +5,6 @@ account: apmuhamilton
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3385011
-bundleId: 3971909
+bundleId: 3993139
 url: https://apmuhamilton.shinyapps.io/hamiltonExcessRIP/
-when: 1607624314.63272
-asMultiple: FALSE
-asStatic: FALSE
+when: 1608056446.94525
