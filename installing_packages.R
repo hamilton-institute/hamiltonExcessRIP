@@ -4,11 +4,12 @@ install.packages(
     "rgdal", "leaflet", "leaflet.extras", "tigris", "spdplyr",
     "ggdendro", "scales", "shinyalert", "shinybusy", "RcppRoll",
     "zoo", "readxl", "Jmisc", "cowplot", "survival", "reticulate", "devtools",
-    "usethis", "bs4Dash"
+    "bs4Dash"
   ),
   repos = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"
 )
 
+install.packages('https://cran.r-project.org/src/contrib/Archive/usethis/usethis_1.6.0.tar.gz', repos=NULL, type='source')
 install.packages(c("sf", "rsconnect"))
 
 devtools::install_github('Displayr/flipTime')
