@@ -1,1 +1,83 @@
 %date	ID	address	town	county	all_addresses
+2020-01-1	409041	Knockglass	Ladysbridge	Cork
+2020-01-1	409032	Wallscourt, Kilrickle	Loughrea	Galway
+2020-01-1	409047		Carrigaline	Cork
+2020-01-1	409036	Coolbue	Caheragh	Cork
+2020-01-1	409045	67 Fr. Murray Park	Dundalk	Louth
+2020-01-1	409068	Bansha Road and late of Glenview Square	Tipperary Town	Tipperary
+2020-01-1	409065		Rathfarnham	Dublin	['\tRathfarnham\tDublin', '\tPortmarnock\tDublin']
+2020-01-1	409096	Doolin Road	Lisdoonvarna	Clare
+2020-01-1	409039	Station View	Roscommon Town	Roscommon	['Station View\tRoscommon Town\tRoscommon', 'Station View\tEnnis\tClare', 'Station View\tClarecastle\tClare']
+2020-01-1	409074			Dublin
+2020-01-1	408896		Bandon	Cork
+2020-01-1	409083		Fethard-on-sea	Wexford
+2020-01-1	409029	Brierfield	Moylough	Galway
+2020-01-1	409064	Lettergorman	Dunmanway	Cork
+2020-01-1	409075		Innishannon	Cork	['\tInnishannon\tCork', '\tWilton\tCork']
+2020-01-1	409092	Brooklawn	Tuam	Galway
+2020-01-1	409090	Brockagh, Brownsgrove	Tuam	Galway
+2020-01-1	409053	81 St. Aidan's Villas	Enniscorthy	Wexford
+2020-01-1	409062	Castleview Park.	Edenderry	Offaly
+2020-01-1	409044	The Mall	Roscrea	Tipperary
+2020-01-1	409072		Inchicore	Dublin
+2020-01-1	409099	Tarmon	Boyle	Roscommon
+2020-01-1	409080	8 Cable Terrace,Knightstown	Valentia Island	Kerry
+2020-01-1	409081		Skerries	Dublin
+2020-01-1	409085	Castle Court	Macroom	Cork
+2020-01-1	408982		Ballymun	Dublin	['\tBallymun\tDublin', '\tEast Wall\tDublin']
+2020-01-1	409089	501 Aisling Park	Dundalk	Louth
+2020-01-1	409051	8 Lisdrumclave, Latton	Castleblayney	Monaghan
+2020-01-1	409038	Bloomfield		Kildare	['Bloomfield\t\tKildare', 'Bloomfield\tAnnacotty\tLimerick']
+2020-01-1	409079	Knocknacrohy	Pallasgreen	Limerick
+2020-01-1	409066	Coppingers Acre and late of Friars Walk	Cork City	Cork
+2020-01-1	409077	Narin Road	Bonniconlon	Mayo	['Narin Road\tBonniconlon\tMayo', 'Narin Road\tGlenties\tDonegal']
+2020-01-1	409048	Creagh	Drumshanbo	Leitrim
+2020-01-1	409057	Westcourt	Callan	Kilkenny
+2020-01-1	409087	Codrum	Macroom	Cork
+2020-01-1	409056	Cappananty	Ballyagran	Limerick
+2020-01-1	409030	Easky, Killeenduff		Sligo
+2020-01-1	409059	37 Camillaun Park	Newcastle	Galway
+2020-01-1	408806		East Wall	Dublin
+2020-01-1	409043	Clintycarnaghan	Bawnboy	Cavan
+2020-01-1	409037		Callan	Kilkenny	['\tCallan\tKilkenny', '\tRathfarnham\tDublin']
+2020-01-1	409103		Glin	Limerick	['\tGlin\tLimerick', '\tDoughcloyne\tCork']
+2020-01-1	409022		Knocklyon	Dublin
+2020-01-1	409063		Newmarket-on-fergus	Clare
+2020-01-1	409097	Castletown	Tuam	Galway
+2020-01-1	409101	Crover	Monaghan Town	Monaghan
+2020-01-1	409058	Templeoran, Meedin	Tyrrellspass	Westmeath
+2020-01-1	409095	39 Mourne Place	Strabane	Tyrone
+2020-01-1	409024	Otterstown	Athboy	Meath
+2020-01-1	409073		Trim	Meath
+2020-01-1	409091	Main street	Athleague	Roscommon
+2020-01-1	409071	13 Canal Banks	Longford Town	Longford
+2020-01-1	408928	Mauradell,   Rathstephen	Moynalty	Meath
+2020-01-1	409034	Main Street	Ballinagore	Westmeath	['Main Street\tBallinagore\tWestmeath', 'Main Street\tDromod\tLeitrim']
+2020-01-1	409055		Donnybrook	Dublin
+2020-01-1	409054	Grallagh	Newport	Mayo	['Grallagh\tNewport\tMayo', 'Grallagh\tGolden\tTipperary']
+2020-01-1	409084	Oakpark Demesne	Tralee	Kerry	['Oakpark Demesne\tTralee\tKerry', 'Oakpark Demesne\tCastleisland\tKerry']
+2020-01-1	409021	Fintra Road	Killybegs	Donegal
+2020-01-1	409040		Bishopstown	Cork
+2020-01-1	409088	Comeragh Park	The Glen	Cork
+2020-01-1	409035		Barna	Galway
+2020-01-1	408979		Finglas	Dublin
+2020-01-1	409076		Celbridge	Kildare
+2020-01-1	409027	Cloneen	Nurney	Carlow
+2020-01-1	409050		Blarney	Cork	['\tBlarney\tCork', '\tVicarstown\tCork']
+2020-01-1	409094	Bishop Court	Newcastle West	Limerick
+2020-01-1	409067	Ballycar Rd.	Killimor	Galway	['Ballycar Rd.\tKillimor\tGalway', 'Ballycar Rd.\tKillimor\tGalway']
+2020-01-1	409086		Termonfeckin	Louth
+2020-01-1	409078	Upper Friars Road	Cork City	Cork
+2020-01-1	409069	School Road, Rathkenny	Navan	Meath
+2020-01-1	409052	Gortkelly	Upperchurch	Tipperary
+2020-01-1	409025	Ballinena, Old Mill	Tulla	Clare	['Ballinena, Old Mill\tTulla\tClare', 'Ballinena, Old Mill\tNewcastle West\tLimerick']
+2020-01-1	409098	Coolduve	Lissarda	Cork
+2020-01-1	409082	Churchfield Gardens	Churchfield	Cork
+2020-01-1	409026	Monknewtown, C15 NN23	Slane	Meath
+2020-01-1	409046	Killarney Court	Dublin 1	Dublin
+2020-01-1	409100	Clohanmore	Cree	Clare
+2020-01-1	409061		Dun Laoghaire	Dublin	['\tDun Laoghaire\tDublin', '\tMaynooth\tKildare']
+2020-01-1	409033	Swilly	St Johnston	Donegal
+2020-01-1	409023	Clashganniff	Shanagolden	Limerick
+2020-01-1	409042	Killenora	Bennekerry	Carlow
+2020-01-1	409049	Cranadillon	Virginia	Cavan
