@@ -5,9 +5,9 @@
 2020-01-1	409036	Coolbue	Caheragh	Cork
 2020-01-1	409045	67 Fr. Murray Park	Dundalk	Louth
 2020-01-1	409068	Bansha Road and late of Glenview Square	Tipperary Town	Tipperary
-2020-01-1	409065		Portmarnock	Dublin	['\tPortmarnock\tDublin', '\tRathfarnham\tDublin']
+2020-01-1	409065		Rathfarnham	Dublin	['\tRathfarnham\tDublin', '\tPortmarnock\tDublin']
 2020-01-1	409096	Doolin Road	Lisdoonvarna	Clare
-2020-01-1	409039	Station View	Roscommon Town	Roscommon	['Station View\tRoscommon Town\tRoscommon', 'Station View\tClarecastle\tClare', 'Station View\tEnnis\tClare']
+2020-01-1	409039	Station View	Ennis	Clare	['Station View\tEnnis\tClare', 'Station View\tRoscommon Town\tRoscommon', 'Station View\tClarecastle\tClare']
 2020-01-1	409074			Dublin
 2020-01-1	408896		Bandon	Cork
 2020-01-1	409083		Fethard-on-sea	Wexford
@@ -30,8 +30,8 @@
 2020-01-1	409038	Bloomfield	Annacotty	Limerick	['Bloomfield\tAnnacotty\tLimerick', 'Bloomfield\t\tKildare']
 2020-01-1	409079	Knocknacrohy	Pallasgreen	Limerick
 2020-01-1	409066	Coppingers Acre and late of Friars Walk	Cork City	Cork
-2020-01-1	409048	Creagh	Drumshanbo	Leitrim
 2020-01-1	409077	Narin Road	Bonniconlon	Mayo	['Narin Road\tBonniconlon\tMayo', 'Narin Road\tGlenties\tDonegal']
+2020-01-1	409048	Creagh	Drumshanbo	Leitrim
 2020-01-1	409057	Westcourt	Callan	Kilkenny
 2020-01-1	409087	Codrum	Macroom	Cork
 2020-01-1	409056	Cappananty	Ballyagran	Limerick
@@ -54,8 +54,8 @@
 2020-01-1	408928	Mauradell,   Rathstephen	Moynalty	Meath
 2020-01-1	409034	Main Street	Dromod	Leitrim	['Main Street\tDromod\tLeitrim', 'Main Street\tBallinagore\tWestmeath']
 2020-01-1	409055		Donnybrook	Dublin
-2020-01-1	409084	Oakpark Demesne	Tralee	Kerry	['Oakpark Demesne\tTralee\tKerry', 'Oakpark Demesne\tCastleisland\tKerry']
-2020-01-1	409054	Grallagh	Golden	Tipperary	['Grallagh\tGolden\tTipperary', 'Grallagh\tNewport\tMayo']
+2020-01-1	409084	Oakpark Demesne	Castleisland	Kerry	['Oakpark Demesne\tCastleisland\tKerry', 'Oakpark Demesne\tTralee\tKerry']
+2020-01-1	409054	Grallagh	Newport	Mayo	['Grallagh\tNewport\tMayo', 'Grallagh\tGolden\tTipperary']
 2020-01-1	409021	Fintra Road	Killybegs	Donegal
 2020-01-1	409040		Bishopstown	Cork
 2020-01-1	409088	Comeragh Park	The Glen	Cork
@@ -63,9 +63,9 @@
 2020-01-1	408979		Finglas	Dublin
 2020-01-1	409076		Celbridge	Kildare
 2020-01-1	409027	Cloneen	Nurney	Carlow
-2020-01-1	409050		Blarney	Cork	['\tBlarney\tCork', '\tVicarstown\tCork']
+2020-01-1	409050		Vicarstown	Cork	['\tVicarstown\tCork', '\tBlarney\tCork']
 2020-01-1	409094	Bishop Court	Newcastle West	Limerick
-2020-01-1	409067	Ballycar Rd.	Killimor	Galway	['Ballycar Rd.\tKillimor\tGalway', 'Ballycar Rd.\tKillimor\tGalway']
+2020-01-1	409067	Ballycar Rd.	Killimor	Galway	['Ballycar Rd.\tKillimor\tGalway', 'Ballycar Rd.\tNewmarket-on-fergus\tClare']
 2020-01-1	409086		Termonfeckin	Louth
 2020-01-1	409078	Upper Friars Road	Cork City	Cork
 2020-01-1	409069	School Road, Rathkenny	Navan	Meath
@@ -90,20 +90,20 @@
 2020-01-2	409231	Church Road	Killybegs	Donegal
 2020-01-2	409143		Ballinteer	Dublin
 2020-01-2	409129	St Fintan's Tce	Durrow	Laois
+2020-01-2	409178		Clonee	Dublin	['\tClonee\tDublin', '\tDublin 7\tDublin']
 2020-01-2	409169	Bunting Road	Walkinstown	Dublin	['Bunting Road\tWalkinstown\tDublin', 'Bunting Road\tClifden\tGalway']
-2020-01-2	409178		Dublin 7	Dublin	['\tDublin 7\tDublin', '\tClonee\tDublin']
 2020-01-2	409194			Cork
 2020-01-2	409233	Carabane, Knock	Kilrush	Clare
 2020-01-2	409201	Rutland Avenue	Crumlin	Dublin
 2020-01-2	409115	Mahanagh	Drumshanbo	Leitrim
 2020-01-2	409150		Finglas	Dublin
+2020-01-2	409132		Duleek	Meath	['\tDuleek\tMeath', '\tDrogheda\tLouth']
 2020-01-2	409210	Carmans Hall	Dublin 8	Dublin
-2020-01-2	409132		Drogheda	Louth	['\tDrogheda\tLouth', '\tDuleek\tMeath']
 2020-01-2	409234	Garra, Ballyglunin	Tuam	Galway
 2020-01-2	409164		Churchtown	Dublin
 2020-01-2	409152	Peterborough, England and formerly of	Raheny	Dublin
 2020-01-2	409163	Corglass	Ballinaglera	Leitrim
-2020-01-2	409239		Greystones	Wicklow	['\tGreystones\tWicklow', '\tDingle\tKerry']
+2020-01-2	409239		Dingle	Kerry	['\tDingle\tKerry', '\tGreystones\tWicklow']
 2020-01-2	409128	Garryknock, Cove Park	Tramore	Waterford
 2020-01-2	409176	Turbotstown	Coole	Westmeath
 2020-01-2	408861		Drogheda	Louth
@@ -112,10 +112,10 @@
 2020-01-2	409229		Rathcoole	Dublin	['\tRathcoole\tDublin', '\tClondalkin\tDublin']
 2020-01-2	409191		Kinsale	Cork
 2020-01-2	409230	Annaghmore	Blueball	Offaly
-2020-01-2	409141	Castlepark, Creagh	Ballinasloe	Galway	['Castlepark, Creagh\tBallinasloe\tGalway', 'Castlepark, Creagh\tBallinasloe\tRoscommon']
+2020-01-2	409141	Castlepark, Creagh	Ballinasloe	Roscommon	['Castlepark, Creagh\tBallinasloe\tRoscommon', 'Castlepark, Creagh\tBallinasloe\tGalway']
 2020-01-2	409004		Clondalkin	Dublin	['\tClondalkin\tDublin', '\tCoolock\tDublin']
-2020-01-2	409167	Fingal Place	Stoneybatter	Dublin
 2020-01-2	409184		Carlow Town	Carlow
+2020-01-2	409167	Fingal Place	Stoneybatter	Dublin
 2020-01-2	409195		Templeogue	Dublin
 2020-01-2	409196		Derrylin	Fermanagh
 2020-01-2	409232	Dromod village	Dromod	Leitrim
@@ -126,36 +126,36 @@
 2020-01-2	409108	Beechwood Lawns	Rathcoole	Dublin
 2020-01-2	409190	Keel and Cacaun	Achill	Mayo
 2020-01-2	409181	Middletown	Glenamaddy	Galway
-2020-01-2	409188		Portobello	Dublin	['\tPortobello\tDublin', '\tPalmerstown\tDublin']
+2020-01-2	409188		Palmerstown	Dublin	['\tPalmerstown\tDublin', '\tPortobello\tDublin']
 2020-01-2	409180	Clonfower	Lanesboro	Longford
 2020-01-2	409156	Ballyoughter	Gorey	Wexford
 2020-01-2	409155	Cathal Brugha Street	Waterford City	Waterford
 2020-01-2	409219	Church View	Kilmeague	Kildare
-2020-01-2	409225		Rathfarnham	Dublin	['\tRathfarnham\tDublin', '\t\tLongford']
+2020-01-2	409225			Longford	['\t\tLongford', '\tRathfarnham\tDublin']
 2020-01-2	409123	Cahermore	Beara	Cork
-2020-01-2	409120	Sybil Hill	Santry	Dublin	['Sybil Hill\tSantry\tDublin', 'Sybil Hill\tRaheny\tDublin']
+2020-01-2	409120	Sybil Hill	Raheny	Dublin	['Sybil Hill\tRaheny\tDublin', 'Sybil Hill\tSantry\tDublin']
 2020-01-2	409140	11 Ard Easmuinn.	Dundalk	Louth
 2020-01-2	409213		Dean's Grange	Dublin	["\tDean's Grange\tDublin", '\tBlackrock\tDublin']
-2020-01-2	409106	Sandhill Road	Newmarket	Cork	['Sandhill Road\tNewmarket\tCork', 'Sandhill Road\tBallybunion\tKerry']
+2020-01-2	409106	Sandhill Road	Ballybunion	Kerry	['Sandhill Road\tBallybunion\tKerry', 'Sandhill Road\tNewmarket\tCork']
 2020-01-2	409212		Waterford City	Waterford
 2020-01-2	409200		Kilbarrack	Dublin
 2020-01-2	409175	Howth Road	Clontarf	Dublin
 2020-01-2	409223	late of Blarney Street	Cork City	Cork
-2020-01-2	409197	Mount Street	Mervue	Galway	['Mount Street\tMervue\tGalway', 'Mount Street\tClaremorris\tMayo']
+2020-01-2	409197	Mount Street	Claremorris	Mayo	['Mount Street\tClaremorris\tMayo', 'Mount Street\tMervue\tGalway']
 2020-01-2	409185		Ballyfermot	Dublin
 2020-01-2	409110	O Moore Forest	Mountmellick	Laois
 2020-01-2	409179	Billis	Ballyjamesduff	Cavan
-2020-01-2	409218	Old Court	Skibbereen	Cork	['Old Court\tSkibbereen\tCork', 'Old Court\tClontarf\tDublin']
-2020-01-2	409171	Coolishall lower	Gorey	Wexford
-2020-01-2	409118	Cruby Hill	Castlecoote	Roscommon	['Cruby Hill\tCastlecoote\tRoscommon', 'Cruby Hill\tClaremorris\tMayo', 'Cruby Hill\tRoscommon Town\tRoscommon']
+2020-01-2	409218	Old Court	Clontarf	Dublin
+2020-01-2	409171	Coolishall lower	Gorey	Wexford	['Coolishall lower\tGorey\tWexford', 'Coolishall lower\tGorey\tWexford']
+2020-01-2	409118	Cruby Hill	Roscommon Town	Roscommon	['Cruby Hill\tRoscommon Town\tRoscommon', 'Cruby Hill\tCastlecoote\tRoscommon', 'Cruby Hill\tClaremorris\tMayo']
 2020-01-2	409070	Mucklagh and late of 16 Patrick Street	Tullamore	Offaly
 2020-01-2	409135	Clashnasmuth, Ahenny	Carrick-on-suir	Tipperary
 2020-01-2	409162		Ballyfermot	Dublin
 2020-01-2	409121		Castlehaven	Cork
-2020-01-2	409109		Greystones	Wicklow	['\tGreystones\tWicklow', '\tKilcoole\tWicklow']
+2020-01-2	409109		Kilcoole	Wicklow	['\tKilcoole\tWicklow', '\tGreystones\tWicklow']
 2020-01-2	409153	late of Melbourne, Australia	Bray	Wicklow
-2020-01-2	409209		Parteen	Clare	['\tParteen\tClare', '\tGlenageary\tDublin']
-2020-01-2	409125	Ardcul	Ballaghaderreen	Roscommon	['Ardcul\tBallaghaderreen\tRoscommon', 'Ardcul\tBrusna\tRoscommon']
+2020-01-2	409209		Glenageary	Dublin	['\tGlenageary\tDublin', '\tParteen\tClare']
+2020-01-2	409125	Ardcul	Brusna	Roscommon	['Ardcul\tBrusna\tRoscommon', 'Ardcul\tBallaghaderreen\tRoscommon']
 2020-01-2	409144	Lackendarra	Anglesborough	Limerick
 2020-01-2	409174	Holy Cross Convent	Newcastle West	Limerick	['Holy Cross Convent\tNewcastle West\tLimerick', 'Holy Cross Convent\tKillarney\tKerry']
 2020-01-2	409111		Ballyvolane	Cork
@@ -164,42 +164,42 @@
 2020-01-2	409215	Dunamore Avenue, Killinarden	Tallaght	Dublin
 2020-01-2	408918	Derry Road	Crumlin	Dublin
 2020-01-2	409122	Lismulladuff	Killygordon	Donegal
-2020-01-2	409238		Lisburn	Antrim	['\tLisburn\tAntrim', '\tRahoon\tGalway']
+2020-01-2	409238		Rahoon	Galway	['\tRahoon\tGalway', '\tLisburn\tAntrim']
 2020-01-2	409220	61 Bridge St.	Cootehill	Cavan
 2020-01-2	409133		Donabate	Dublin
 2020-01-2	409130	Dooneen Park	Kilrush	Clare
-2020-01-2	409168		Coolock	Dublin	['\tCoolock\tDublin', '\tDrimnagh\tDublin']
-2020-01-2	409102	Brookwood Drive	Artane	Dublin
+2020-01-2	409168		Drimnagh	Dublin	['\tDrimnagh\tDublin', '\tCoolock\tDublin']
 2020-01-2	409235	No. 6, Tullan Strand Rd	Bundoran	Donegal	['No. 6, Tullan Strand Rd\tBundoran\tDonegal', 'No. 6, Tullan Strand Rd\tRoslea\tFermanagh']
+2020-01-2	409102	Brookwood Drive	Artane	Dublin
 2020-01-2	409236	Killyleck	Emyvale	Monaghan
-2020-01-2	409113	Inchincummer	Knocknagoshel	Kerry	['Inchincummer\tKnocknagoshel\tKerry', 'Inchincummer\tCurrow\tKerry']
+2020-01-2	409113	Inchincummer	Currow	Kerry	['Inchincummer\tCurrow\tKerry', 'Inchincummer\tKnocknagoshel\tKerry']
 2020-01-2	409149		Cabra West	Dublin
 2020-01-2	409145		Dun Laoghaire	Dublin	['\tDun Laoghaire\tDublin', '\tRoscrea\tTipperary']
 2020-01-2	409189	Lenamore, Colemanstown	Ballinasloe	Galway
 2020-01-2	409198	St Mary's Tce	Daingean	Offaly
 2020-01-2	409183	Creagh Road	Ballinrobe	Mayo
 2020-01-2	408515		Blackrock	Dublin
-2020-01-2	409208	Central Avenue	Waterford City	Waterford	['Central Avenue\tWaterford City\tWaterford', 'Central Avenue\tLisduggan\tWaterford']
-2020-01-2	409158	Boher	Kilbehenny	Limerick	['Boher\tKilbehenny\tLimerick', 'Boher\tKilbehenny\tCork']
+2020-01-2	409208	Central Avenue	Lisduggan	Waterford	['Central Avenue\tLisduggan\tWaterford', 'Central Avenue\tWaterford City\tWaterford']
+2020-01-2	409158	Boher	Kilbehenny	Cork	['Boher\tKilbehenny\tCork', 'Boher\tKilbehenny\tLimerick']
 2020-01-2	409187		Whitehall	Dublin
 2020-01-2	409170	Marian Park	Patrickswell	Limerick
 2020-01-2	409134		Edenmore	Dublin	['\tEdenmore\tDublin', '\tCoolock\tDublin']
 2020-01-2	409216	Hillsbrook Crescent, Perrystown	Dublin 12	Dublin
-2020-01-2	409148		Glenealy	Wicklow
 2020-01-2	409240	Drumkeen	Claremorris	Mayo
 2020-01-2	409151	South Circular Road	Rialto	Dublin
-2020-01-2	409227	Woodgrove, Carrigduff	Bunclody	Wexford	['Woodgrove, Carrigduff\tBunclody\tWexford', 'Woodgrove, Carrigduff\tCobh\tCork']
-2020-01-2	409117	Emerald Street	North Strand	Dublin	['Emerald Street\tNorth Strand\tDublin', 'Emerald Street\tClaremorris\tMayo']
+2020-01-2	409148		Glenealy	Wicklow
+2020-01-2	409227	Woodgrove, Carrigduff	Cobh	Cork	['Woodgrove, Carrigduff\tCobh\tCork', 'Woodgrove, Carrigduff\tBunclody\tWexford']
+2020-01-2	409117	Emerald Street	Claremorris	Mayo	['Emerald Street\tClaremorris\tMayo', 'Emerald Street\tNorth Strand\tDublin']
 2020-01-2	409177	Late of Stephens Chemist Kenyon Street	Fairview	Dublin	['Late of Stephens Chemist Kenyon Street\tFairview\tDublin', 'Late of Stephens Chemist Kenyon Street\tBallyshannon\tDonegal', 'Late of Stephens Chemist Kenyon Street\tNenagh\tTipperary']
 2020-01-2	409226	No 1. St. Canice's Terrace	Borris-in-ossory	Laois
 2020-01-2	409093	Kilfaul	Partry	Mayo
 2020-01-2	409207	'Nerja' Standville Gardens, O'Callaghan Strand	Limerick City	Limerick
-2020-01-2	409165		Newcastle	Dublin	['\tNewcastle\tDublin', '\tAshford\tWicklow', '\tBray\tWicklow']
+2020-01-2	409165		Ashford	Wicklow	['\tAshford\tWicklow', '\tNewcastle\tDublin', '\tBray\tWicklow']
 2020-01-2	409124	Strandfield Manor, Spawell Road	Wexford Town	Wexford
 2020-01-2	409202	Quay Road	Fethard-on-sea	Wexford
 2020-01-2	409193	The Lodge, Main Street	Doneraile	Cork
 2020-01-2	409009		Crosshaven	Cork
-2020-01-2	409166	Rathmichael	Broadford	Kildare	['Rathmichael\tBroadford\tKildare', 'Rathmichael\tShankill\tDublin']
+2020-01-2	409166	Rathmichael	Shankill	Dublin	['Rathmichael\tShankill\tDublin', 'Rathmichael\tBroadford\tKildare']
 2020-01-2	409157	Ballyscanlon	Fenor	Waterford
 2020-01-2	409119	Brook Crescent, Old Bridge	Clonmel	Tipperary
 2020-01-2	409142		Bray	Wicklow
@@ -214,7 +214,124 @@
 2020-01-2	409146		Glasnevin North	Dublin
 2020-01-2	409159	Birchwood Avenue, Birchwood	Waterford City	Waterford
 2020-01-2	409112	Ballingown House, Villierstown	Aglish	Waterford	['Ballingown House, Villierstown\tAglish\tWaterford', 'Ballingown House, Villierstown\tVillierstown\tWaterford']
-2020-01-2	409221	Sycamore Avenue	Rathbane	Limerick
 2020-01-2	409136	Lismore, Toomevara	Nenagh	Tipperary
+2020-01-2	409221	Sycamore Avenue	Rathbane	Limerick
 2020-01-2	409126	Lankill	Little Island	Cork	['Lankill\tLittle Island\tCork', 'Lankill\tWestport\tMayo']
 2020-01-2	409224	Muingearan, Granard	Moygownagh	Mayo
+2020-01-3	409312		Dalkey	Dublin
+2020-01-3	409278		Stillorgan	Dublin
+2020-01-3	409289	Tullaghan	Mullingar	Westmeath
+2020-01-3	409303	Riverside Drive	Mountcollins	Limerick
+2020-01-3	409351	Dirtane	Ballyheigue	Kerry
+2020-01-3	409309	Brookdale, Headford Road.	Galway City	Galway
+2020-01-3	409285		North Circular Road	Dublin
+2020-01-3	409273		Clonshaugh	Dublin
+2020-01-3	409349	Annaglough, Annyalla	Castleblayney	Monaghan
+2020-01-3	409315	“The Cottage”,  Screggan Cross, Mucklagh	Tullamore	Offaly
+2020-01-3	409242	Upper Grattan park	Newtownmountkennedy	Wicklow	['Upper Grattan park\tNewtownmountkennedy\tWicklow', 'Upper Grattan park\tGreystones\tWicklow']
+2020-01-3	409271	Maddoxtown	Dunbell	Kilkenny
+2020-01-3	409246		Kilmore West	Dublin
+2020-01-3	409245	Curragh Park	Ballinasloe	Galway	['Curragh Park\tBallinasloe\tGalway', 'Curragh Park\tBallycumber\tOffaly']
+2020-01-3	409317	Lacharue	Milltown	Kerry	['Lacharue\tMilltown\tKerry', 'Lacharue\tCastlemaine\tKerry']
+2020-01-3	409348	St. Anthony's Road	Gurranabraher	Cork
+2020-01-3	409257		Clontarf	Dublin	['\tClontarf\tDublin', '\tBallinagh\tCavan']
+2020-01-3	409296	Kishikirk	Ballysimon	Limerick
+2020-01-3	409353	Killivarrig	Timoleague	Cork
+2020-01-3	409330	Castle Gardens	Kilkenny City	Kilkenny
+2020-01-3	409319	Shepperton	Skibbereen	Cork
+2020-01-3	409255	St. Jude’s Terrace		Limerick	['St. Jude’s Terrace\t\tLimerick', 'St. Jude’s Terrace\tParteen\tClare']
+2020-01-3	409311	Castlemore	Tullow	Carlow
+2020-01-3	409331		Clontarf	Dublin	['\tClontarf\tDublin', '\tArtane\tDublin', '\tArdee\tLouth']
+2020-01-3	409295	Yellow Road	Whitehall	Dublin
+2020-01-3	409211	Macmine, Bree	Enniscorthy	Wexford
+2020-01-3	409272	Casa Bella, Ballyknock	New Ross	Wexford
+2020-01-3	409269	Redshire Road	Murrintown	Wexford
+2020-01-3	409294	Belville	Monivea	Galway	['Belville\tMonivea\tGalway', 'Belville\tAthenry\tGalway']
+2020-01-3	409282			Wicklow	['\t\tWicklow', '\tClonsilla\tDublin']
+2020-01-3	409280	Reading, England and formerly	Collinstown	Westmeath
+2020-01-3	409252		Goatstown	Dublin
+2020-01-3	409327	Painstown	Dunshaughlin	Meath	['Painstown\tDunshaughlin\tMeath', 'Painstown\tDuleek\tMeath']
+2020-01-3	409288	Illane and formerly of  Gortagannive, Kilmaley	Miltown Malbay	Clare
+2020-01-3	409325	Sycamore Road	Dublin 8	Dublin	['Sycamore Road\tDublin 8\tDublin', 'Sycamore Road\tRathnapish\tCarlow']
+2020-01-3	409316		Booterstown	Dublin
+2020-01-3	409300	College Street	Waterford City	Waterford
+2020-01-3	409270	Singland crescent	Garryowen	Limerick
+2020-01-3	409292		Goatstown	Dublin	['\tGoatstown\tDublin', '\tSwords\tDublin']
+2020-01-3	409336	Mary Aikenhead House and formerly of Sheriff Street	Dublin City	Dublin
+2020-01-3	409302	Wallstown	Tullaroan	Kilkenny
+2020-01-3	409324	Clashaghad, Dunkerrin	Birr	Offaly
+2020-01-3	409248	Garryhinch	Portarlington	Laois	['Garryhinch\tPortarlington\tLaois', 'Garryhinch\tPortarlington\tOffaly']
+2020-01-3	409344			Dublin
+2020-01-3	409329	Lock Mills, Grove Island	Corbally	Limerick
+2020-01-3	409277	Culduff, Callow	Foxford	Mayo
+2020-01-3	409293	Hermitage	Ennis	Clare
+2020-01-3	409322		Glasnevin	Dublin
+2020-01-3	409306	Cloncon	Tullamore	Offaly
+2020-01-3	409260	Drumcargy, Magheracloone	Carrickmacross	Monaghan
+2020-01-3	409291	Whistlebridge	Craughwell	Galway
+2020-01-3	409060	Comagh Road	Kilbeggan	Westmeath
+2020-01-3	409237	Irongrange	Castledermot	Kildare	['Irongrange\tCastledermot\tKildare', 'Irongrange\tBaltinglass\tWicklow']
+2020-01-3	409287	Derrahaun	Kenagh	Longford
+2020-01-3	409352		Castlerea	Roscommon
+2020-01-3	409313		Cabra	Dublin	['\tCabra\tDublin', '\tSantry\tDublin']
+2020-01-3	409268	Newtown	Kilmacthomas	Waterford
+2020-01-3	409283		Rathfarnham	Dublin
+2020-01-3	409258	27 Arden View	Blanchardstown	Dublin	['27 Arden View\tBlanchardstown\tDublin', '27 Arden View\tTullamore\tOffaly']
+2020-01-3	409274	Cuba Avenue	Banagher	Offaly
+2020-01-3	408700	Manchester, England and formerly of Corstown	Drumconrath	Meath	['Manchester, England and formerly of Corstown\tDrumconrath\tMeath', 'Manchester, England and formerly of Corstown\tArdee\tLouth']
+2020-01-3	409244	20A Newtown Street	Strabane	Tyrone
+2020-01-3	409332	Cotteen	Gweedore	Donegal
+2020-01-3	409321	Franciscan Convent	Ballinasloe	Galway	['Franciscan Convent\tBallinasloe\tGalway', 'Franciscan Convent\tBelfast\tAntrim']
+2020-01-3	409333		Monkstown	Dublin	['\tMonkstown\tDublin', '\tGreystones\tWicklow']
+2020-01-3	409263		Monkstown	Dublin	['\tMonkstown\tDublin', '\tTerenure\tDublin']
+2020-01-3	409243	Piercetown	Newbridge	Kildare
+2020-01-3	409318	Bohernasup	Donamon	Roscommon	['Bohernasup\tDonamon\tRoscommon', 'Bohernasup\tBallina\tMayo']
+2020-01-3	409323		Ballyfermot	Dublin
+2020-01-3	409338		Swords	Dublin
+2020-01-3	409284	Late of Oriel St Lwr	Dublin 1	Dublin
+2020-01-3	409320			Dublin	['\t\tDublin', '\t\tMeath']
+2020-01-3	409286	18 Cross Roads	Killaloe	Clare
+2020-01-3	409354	Bealcragga	Connolly	Clare
+2020-01-3	409337	Tirellan Heights and formerly Lower	Salthill	Galway
+2020-01-3	409249	Main Street, BT92 4FH	Kinawley	Fermanagh
+2020-01-3	409304	Ashfield Park	Naas	Kildare
+2020-01-3	409253	Stenson Park	Farranshone	Limerick
+2020-01-3	409297	Stenson Park	Farranshone	Limerick
+2020-01-3	409251		Skerries	Dublin
+2020-01-3	409254	Callowfeenish,	Inverin	Galway	['Callowfeenish,\tInverin\tGalway', 'Callowfeenish,\tCarna\tGalway']
+2020-01-3	409250	Lyradane Avenue, Woodview Park	Limerick City	Limerick	['Lyradane Avenue, Woodview Park\tLimerick City\tLimerick', 'Lyradane Avenue, Woodview Park\tDromcollogher\tLimerick']
+2020-01-3	409346		Artane	Dublin
+2020-01-3	409265		Crossabeg	Wexford
+2020-01-3	409339		Tallaght	Dublin	['\tTallaght\tDublin', '\tKimmage\tDublin']
+2020-01-3	409276	An Charraic	Gweedore	Donegal
+2020-01-3	409264		Terenure	Dublin	['\tTerenure\tDublin', '\tMonkstown\tDublin']
+2020-01-3	409214	St Colmcille's Road	Gurranabraher	Cork
+2020-01-3	409355	Meeng	Rockchapel	Cork
+2020-01-3	409281		Sutton	Dublin	['\tSutton\tDublin', '\tMalahide\tDublin']
+2020-01-3	409340		Castlemagner	Cork
+2020-01-3	409328	Clydagh	Moycullen	Galway
+2020-01-3	409204		Sandymount	Dublin	['\tSandymount\tDublin', '\tBray\tWicklow']
+2020-01-3	409326	7 Cranmore Place & formerly of Doorley, Park	Sligo Town	Sligo
+2020-01-3	409334	Rockmount	Drimoleague	Cork
+2020-01-3	409266		Cork City	Cork	['\tCork City\tCork', '\tMurroe\tLimerick']
+2020-01-3	409308	'St. Jude' Wellfield	Garryowen	Limerick
+2020-01-3	409247	Shrough	Cappoquin	Waterford	['Shrough\tCappoquin\tWaterford', 'Shrough\tLismore\tWaterford']
+2020-01-3	409267	Wrens Nest, Strawberry Beds	Dublin 20	Dublin
+2020-01-3	409350	Knockroe, Mastergeehy	Waterville	Kerry
+2020-01-3	409262		Dublin Hill	Cork
+2020-01-3	409345	Rossmacowen	Castletownbere	Cork
+2020-01-3	409307	Holy Cross Gardens	Killarney	Kerry
+2020-01-3	409305	Stephenstown South, Two Mile House	Naas	Kildare
+2020-01-3	409256	Bali Hai	Carrigallen	Leitrim
+2020-01-3	409298		Blackrock	Dublin	['\tBlackrock\tDublin', '\tCrumlin\tDublin']
+2020-01-3	409261	Skehenerin	Listowel	Kerry	['Skehenerin\tListowel\tKerry', 'Skehenerin\tCashel\tTipperary']
+2020-01-3	409342	Glaun	Schull	Cork
+2020-01-3	409206	Church Road	Newtownmountkennedy	Wicklow	['Church Road\tNewtownmountkennedy\tWicklow', 'Church Road\tAshford\tWicklow']
+2020-01-3	409275	Cabra	Bray	Dublin	['Cabra\tBray\tDublin', 'Cabra\tDublin 7\tDublin']
+2020-01-3	409279		Mornington	Meath	['\tMornington\tMeath', '\tBettystown\tMeath']
+2020-01-3	409347		Monaghan Town	Monaghan
+2020-01-3	409310	Belmont Nursing Home, formerly Barnhill Road	Dalkey	Dublin
+2020-01-3	409341	Parisee	Belturbet	Cavan
+2020-01-3	409299	Dargle Road	Bray	Wicklow
+2020-01-3	409241	Shrule Road	Headford	Galway
+2020-01-3	409335		Monkstown	Dublin	['\tMonkstown\tDublin', '\tStepaside\tDublin']
