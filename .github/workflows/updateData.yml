@@ -26,7 +26,9 @@ jobs:
           sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
           sudo apt-get update
           sudo apt-get install libudunits2-dev libgdal-dev libgeos-dev libproj-dev libgit2-dev
-      - uses: r-lib/actions/setup-r@master
+      - uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: '4.0.3'
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
